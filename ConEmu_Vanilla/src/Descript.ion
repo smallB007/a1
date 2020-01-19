@@ -1,0 +1,6 @@
+build.prj.bat {prj_file} {config} {platform}
+build.prj12.bat {prj_file} {config} {platform}
+build.prj14.bat {prj_file} {config} {platform}
+build.prj9.bat {prj_file} {config} {platform}
+vc.build.create.release.cmd VC9-x86, VC14-x64
+vc.build.release.cmd [9|10|11|12|14 [core] [x86|x64] [noclean] [nofull] [dosign|nosign]]]
